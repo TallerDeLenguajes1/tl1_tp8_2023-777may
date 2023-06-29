@@ -36,6 +36,7 @@ using (StreamWriter sw = new StreamWriter(@".\index.csv"))
         sw.WriteLine();
         i++;
     }
+    sw.Close();
 }
 
 // using clasesParaTarea;
