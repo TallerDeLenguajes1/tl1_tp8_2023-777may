@@ -1,0 +1,15 @@
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\bin\Debug\net7.0\practico7.exe
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\bin\Debug\net7.0\practico7.deps.json
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\bin\Debug\net7.0\practico7.runtimeconfig.json
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\bin\Debug\net7.0\practico7.dll
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\bin\Debug\net7.0\practico7.pdb
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\practico7.csproj.AssemblyReference.cache
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\practico7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\practico7.AssemblyInfoInputs.cache
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\practico7.AssemblyInfo.cs
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\practico7.csproj.CoreCompileInputs.cache
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\practico7.dll
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\refint\practico7.dll
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\practico7.pdb
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\practico7.genruntimeconfig.cache
+C:\Facultad\2do\TallerDeLenguaje1-2023\Practica\tl1_tp8_2023-777may\obj\Debug\net7.0\ref\practico7.dll
