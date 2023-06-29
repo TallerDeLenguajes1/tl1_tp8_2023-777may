@@ -62,6 +62,7 @@ using (StreamWriter sw = File.AppendText(directorio+archivo))
     }
     sw.Write(horas);
     sw.WriteLine(";");
+    sw.Close();
 }
 
 
