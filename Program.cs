@@ -10,31 +10,59 @@ cargarTareas(tareasPendientes, 5);
 string ? palabra;
 int num = menu();
 Tarea? aux;
-    while (num != 0)
+while (num != 0)
+{
+    switch (num)
     {
-        switch (num)
+    case 1:
+        cambiarEstadoTareas(tareasPendientes, tareasRealizadas);
+        break;
+    case 2:
+        mostrarTodasLasListas(tareasPendientes, tareasRealizadas);
+        break;
+    case 3:
+        do
         {
-        case 1:
-            cambiarEstadoTareas(tareasPendientes, tareasRealizadas);
-            break;
-        case 2:
-            mostrarTodasLasListas(tareasPendientes, tareasRealizadas);
-            break;
-        case 3:
-            do
-            {
-                Console.WriteLine("Ingrese la palabra a buscar: ");
-                palabra = Console.ReadLine();
-            } while (palabra == null);
-            Console.WriteLine(" Buscando la tarea con la palabra \"{0}\"", palabra);
-            aux = BuscaTareaPorPalabra(tareasPendientes, tareasRealizadas, palabra);
-            if(aux.Descripcion != null) aux.mostrarTarea();
-            else 
-            Console.WriteLine("No se ha encontrado tarea con la palabra \"{0}\"", palabra);
-            break;
-        }
-        num = menu();
+            Console.WriteLine("Ingrese la palabra a buscar: ");
+            palabra = Console.ReadLine();
+        } while (palabra == null);
+        Console.WriteLine(" Buscando la tarea con la palabra \"{0}\"", palabra);
+        aux = BuscaTareaPorPalabra(tareasPendientes, tareasRealizadas, palabra);
+        if(aux.Descripcion != null) aux.mostrarTarea();
+        else 
+        Console.WriteLine("No se ha encontrado tarea con la palabra \"{0}\"", palabra);
+        break;
     }
+    num = menu();
+}
+var directorio = ".";
+var archivo = @"\horasTrabajadas.csv";
+if(!File.Exists(directorio+archivo)){ 
+    // using (StreamWriter sw = File.CreateText(directorio+archivo)) //si no existe lo crea
+    // {
+    //     sw.WriteLine("Horas trabajadas: ;");
+    // }
+    using (StreamWriter sw = new StreamWriter(directorio+archivo))
+    {
+        sw.WriteLine("Horas trabajadas: ;");
+        // var horas = 0;
+        // foreach (var tarea in tareasRealizadas)
+        // {
+        //     horas += tarea.Duracion;
+        // }
+        // sw.WriteLine(horas);
+    }
+}
+using (StreamWriter sw = File.AppendText(directorio+archivo))
+{
+    var horas = 0;
+    foreach (var tarea in tareasRealizadas)
+    {
+        horas += tarea.Duracion;
+    }
+    sw.Write(horas);
+    sw.WriteLine(";");
+}
 
 
 int menu(){
